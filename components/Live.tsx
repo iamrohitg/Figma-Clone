@@ -7,9 +7,9 @@ import useInterval from "@/hooks/useInterval";
 import { CursorMode, CursorState, Reaction, ReactionEvent } from "@/types/type";
 import { shortcuts } from "@/constants";
 
-// import { Comments } from "./comments/Comments";
+import { Comments } from "./comments/Comments";
 import { CursorChat, FlyingReaction, LiveCursors, ReactionSelector } from "./index";
-// import { ContextMenu, ContextMenuContent, ContextMenuItem, ContextMenuTrigger } from "./ui/context-menu";
+import { ContextMenu, ContextMenuContent, ContextMenuItem, ContextMenuTrigger } from "./ui/context-menu";
 
 type Props = {
   canvasRef: React.MutableRefObject<HTMLCanvasElement | null>;
@@ -269,7 +269,7 @@ const Live = ({ canvasRef, undo, redo }: Props) => {
         <LiveCursors others={others} />
 
         {/* Show the comments */}
-        {/* <Comments /> */}
+        <Comments />
       </ContextMenuTrigger>
 
       <ContextMenuContent className="right-menu-content">
