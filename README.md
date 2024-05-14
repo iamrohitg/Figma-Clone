@@ -6,6 +6,9 @@ A minimalistic Figma clone showcasing real-world features like live collaboratio
 
 This project is a minimalistic Figma clone designed to demonstrate the integration of real-world features like live collaboration, cursor chat, comments, reactions, and drawing designs (shapes, image upload) on the canvas using fabric.js. It's a great way to learn about building interactive web applications with modern technologies.
 
+## [Website](https://figma-clone-one-puce.vercel.app/)
+
+
 ## ⚙️ Tech Stack
 
 - Frontend: React (with Next.js)
